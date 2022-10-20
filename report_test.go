@@ -7,8 +7,8 @@ import (
 	"github.com/google/uuid"
 	gContext "github.com/gotechbook/gotechbook-framework-core/context"
 	e "github.com/gotechbook/gotechbook-framework-errors"
+	"github.com/gotechbook/gotechbook-framework-metrics/mocks"
 	"github.com/stretchr/testify/assert"
-	"gotechbook-framework-metrics/mocks"
 	"testing"
 	"time"
 )
@@ -154,9 +154,7 @@ func TestReportMessageProcessDelayFromCtx(t *testing.T) {
 			"type":  expectedType,
 			"key":   "value",
 		}
-
 		mockMetricsReporter.EXPECT().ReportSummary(ProcessDelay, expectedTags, gomock.Any())
-
 		ReportMessageProcessDelayFromCtx(ctx, []Reporter{mockMetricsReporter}, expectedType)
 	})
 }

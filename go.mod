@@ -1,4 +1,4 @@
-module gotechbook-framework-metrics
+module github.com/gotechbook/gotechbook-framework-metrics
 
 go 1.19
 
