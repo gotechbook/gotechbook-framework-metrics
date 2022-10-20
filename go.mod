@@ -7,7 +7,7 @@ require (
 	github.com/golang/mock v1.4.4
 	github.com/google/uuid v1.1.2
 	github.com/gotechbook/gotechbook-framework-config v0.0.0-20221018070444-580345c02118
-	github.com/gotechbook/gotechbook-framework-core v0.0.0-20221019083452-b5a64fa65651
+	github.com/gotechbook/gotechbook-framework-context v0.0.0-20221020021700-654ddf6fb381
 	github.com/gotechbook/gotechbook-framework-errors v0.0.0-20221019090040-427b73f538e7
 	github.com/gotechbook/gotechbook-framework-logger v0.0.0-20221018080147-c7a6705fa445
 	github.com/prometheus/client_golang v1.13.0
@@ -21,6 +21,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/gotechbook/gotechbook-framework-utils v0.0.0-20221020020827-2242ff1d5ffb // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect

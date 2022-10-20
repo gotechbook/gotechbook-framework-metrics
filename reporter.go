@@ -2,7 +2,7 @@ package metrics
 
 import (
 	"context"
-	gContext "github.com/gotechbook/gotechbook-framework-core/context"
+	gContext "github.com/gotechbook/gotechbook-framework-context"
 	errors "github.com/gotechbook/gotechbook-framework-errors"
 	"runtime"
 	"time"

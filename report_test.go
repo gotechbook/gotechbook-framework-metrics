@@ -5,7 +5,7 @@ import (
 	"errors"
 	"github.com/golang/mock/gomock"
 	"github.com/google/uuid"
-	gContext "github.com/gotechbook/gotechbook-framework-core/context"
+	gContext "github.com/gotechbook/gotechbook-framework-context"
 	e "github.com/gotechbook/gotechbook-framework-errors"
 	"github.com/gotechbook/gotechbook-framework-metrics/mocks"
 	"github.com/stretchr/testify/assert"
